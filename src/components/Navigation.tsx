@@ -4,7 +4,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
-import { cn, ff } from '@/lib/utils';
+import { ff } from '@/lib/utils';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
 const LINKS = ['menu','about','location','contact'] as const;
