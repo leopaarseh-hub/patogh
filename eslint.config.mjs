@@ -9,17 +9,23 @@ const compat     = new FlatCompat({ baseDirectory: __dirname });
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
+    linterOptions: {
+      // Don't error when an eslint-disable comment turns out to be unnecessary
+      reportUnusedDisableDirectives: "warn",
+    },
     rules: {
-      // Unused vars: allow _ prefix to silence intentionally unused
+      // prefer-as-const fires on inline React style casts — not useful here
+      "@typescript-eslint/prefer-as-const": "off",
+      // Unused vars: allow underscore-prefixed ignores
       "@typescript-eslint/no-unused-vars": ["error", {
         argsIgnorePattern: "^_",
         varsIgnorePattern: "^_",
-        ignoreRestSiblings: true
+        ignoreRestSiblings: true,
       }],
-      // Exhaustive-deps: warn only (we document intentional omissions inline)
+      // hooks deps: warn only (we document intentional omissions with comments)
       "react-hooks/exhaustive-deps": "warn",
-    }
-  }
+    },
+  },
 ];
 
 export default eslintConfig;

@@ -34,7 +34,7 @@ const jsonLd = {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
-  if (!routing.locales.includes(locale as 'de'|'fa')) notFound();
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) notFound();
   const messages = await getMessages();
   const isRTL    = locale === 'fa';
   return (
