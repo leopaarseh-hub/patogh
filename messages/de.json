@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "PATOGH – Authentischer persischer Fast Food in Düsseldorf",
+    "description": "Traditioneller persischer Fast Food in Düsseldorf – Sandwiches, Döner, Pizzen und mehr. Reisholzer Str. 25, 40231 Düsseldorf."
+  },
+  "nav": {
+    "menu": "Menü", "about": "Über uns", "location": "Standort",
+    "contact": "Kontakt", "lang": "فارسی"
+  },
+  "hero": {
+    "eyebrow": "Düsseldorf · Deutschland",
+    "headline": "Authentischer persischer Fast Food Genuss im Herzen Düsseldorfs",
+    "sub": "Traditionelle persische Street-Food-Klassiker mit modernen europäischen Qualitätsstandards",
+    "ctaMenu": "Speisekarte ansehen", "ctaContact": "Kontakt"
+  },
+  "about": {
+    "eyebrow": "Unsere Geschichte", "title": "Über Patogh",
+    "text": "Patogh verbindet den nostalgischen Geschmack iranischer Fast-Food-Klassiker mit modernen europäischen Qualitätsstandards. Von traditionellen Sandwiches bis zu beliebten Street-Food-Spezialitäten bieten wir ein authentisches kulinarisches Erlebnis mitten in Düsseldorf.",
+    "tag1Label": "Standort", "tag1Value": "Düsseldorf",
+    "tag2Label": "Küche",   "tag2Value": "Persisch"
+  },
+  "menu": {
+    "eyebrow": "Was wir servieren", "title": "Speisekarte",
+    "sub": "Frisch zubereitet – täglich.", "saucePrice": "je 1€"
+  },
+  "reviews": {
+    "eyebrow": "Gästestimmen", "title": "Was unsere Gäste sagen",
+    "rating": "5.0", "source": "Google"
+  },
+  "location": {
+    "eyebrow": "Finden Sie uns", "title": "Unser Standort",
+    "address": "Adresse", "phone": "Telefon",
+    "openMaps": "In Google Maps öffnen"
+  },
+  "contact": {
+    "eyebrow": "Bleiben Sie in Kontakt", "title": "Kontakt",
+    "phone": "Telefon", "instagram": "Instagram", "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Authentischer persischer Fast Food in Düsseldorf",
+    "nav": "Navigation", "contact": "Kontakt", "address": "Adresse",
+    "rights": "Alle Rechte vorbehalten", "madeBy": "Gestaltet von"
+  }
+}
