@@ -38,10 +38,9 @@ export default function Reviews() {
   const [dir, setDir] = useState(1);
   const count = isMobile ? 1 : 3;
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const advance = useCallback(() => {
     setDir(1); setIdx(i => (i+1) % REVIEWS.length);
-  }, []); // REVIEWS is a module-level constant — safe to omit
+  }, []);
 
   useEffect(() => {
     const iv = setInterval(advance, 4500);

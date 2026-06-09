@@ -85,7 +85,7 @@ export default function Menu() {
           <div className="lg:hidden" style={{ overflowX:'auto', display:'flex', gap:0,
             borderBottom:'1px solid var(--border)', marginBottom:28,
             flexDirection: isRTL?'row-reverse':'row',
-            scrollbarWidth:'none' as 'none',
+            scrollbarWidth:'none',
             WebkitOverflowScrolling:'touch' } as React.CSSProperties}>
             {MENU_CATS.map(c => (
               <button key={c.id} onClick={() => setCat(c.id)}
